@@ -173,7 +173,7 @@ admissionWebhooks:
   ## By default, OpenTelemetry Operator will use self-signer issuer.
   certManager:
     # false means helm will create self-signd cert and secret for you.
-    enabled: true
+    enabled: false
     issuerRef: {}
       # kind:
       # name:
